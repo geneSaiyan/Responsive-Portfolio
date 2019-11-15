@@ -217,6 +217,7 @@ body {
   }
   
 
+  /* Media query for 980px */
   @media screen and (max-width: 980px){
     .container {
       width: 100%;
@@ -224,8 +225,20 @@ body {
       margin: 0 auto;
       clear: both;
     }
+
+    .main-section {
+      float: left;
+      width: 100%;
+      max-width: 768px;
+      padding: 30px;
+      margin: 0 0 40px;
+      background: #ffffff;
+      border: 1px solid #dddddd;
+    }
   }
 
+  
+  /* Media query for 768px */
   @media screen and (max-width: 768px){
     .container {
       width: 100%;
@@ -269,6 +282,8 @@ body {
     }
   }
 
+  
+  /* Media query for 640px */
   @media screen and (max-width: 640px){
     .container {
       width: 100%;
