@@ -218,7 +218,12 @@ body {
   
 
   @media screen and (max-width: 980px){
-
+    .container {
+      width: 100%;
+      max-width: 980px;
+      margin: 0 auto;
+      clear: both;
+    }
   }
 
   @media screen and (max-width: 768px){
@@ -230,7 +235,7 @@ body {
     }
 
     #main-container {
-      padding-top: 130px;
+      padding-top: 50px;
       min-height: calc(100vh - 70px);
 
     }
@@ -290,7 +295,7 @@ body {
     }
 
     #main-container {
-      padding-top: 130px;
+      padding-top: 50px;
       min-height: calc(100vh - 70px);
     }
     
@@ -318,7 +323,7 @@ body {
     }
     
     nav {
-
+margin-right:25%;
       margin-top: 25px;
     }
     
